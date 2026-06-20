@@ -26,12 +26,24 @@
         label{
             display: block;
         }
+        p{
+            color: white;
+        }
+
+    
+     footer{
+        text-align: center;
+     }
+    
 
     </style>
 </head>
 <body>
+
+    <hr>
+
     <form>
-    
+<div class="columna">
     <img src="imagenes/LogoAgenciaAutos.png" width="200" height="180">
 
     <h3 id="renta_autos">Renta de Autos de Lujo</h3>
@@ -71,24 +83,79 @@
 
         <label for="dias">Numero de Dias</label>
         <input type="number" id="dias" style="width: 60px;">
+    </div>
 
         <br>
-
+    <div>
         <h3>Marca de Preferencia</h3>
 
-        <hr>
+    <hr>
 
-        <label for="marca"><input type="radio" value="mercedes_benz">Mercedes Benz</label>
-        <label for="marca"><input type="radio" value="bmw">BMW</label>
-        <label for="marca"><input type="radio" value="Porsche">Porsche</label>
-        <label for="marca"><input type="radio" value="Audi">Audi</label>
-        <label for="marca"><input type="radio" value="infiniti">Infiniti</label>
+        <label for="marca"><input type="radio" name="auto" value="1">Mercedes Benz</label>
+        <label for="marca"><input type="radio" name="auto" value="2">BMW</label>
+        <label for="marca"><input type="radio" name="auto" value="3">Porsche</label>
+        <label for="marca"><input type="radio" name="auto" value="4">Audi</label>
+        <label for="marca"><input type="radio" name="auto" value="5">Infiniti</label>
+        <label for="marca"><input type="radio" name="auto" value="6">Pininfarina</label>
 
-        <hr>
+    <hr>
 
-        <img src="imagenes/mercedes-benz-logo.png" width="200" height="180">
-        <img src="imagenes/BMW-logo.png" width="200" height="180">
-        <img src="imagenes/porsche.png" width="200" height="180">
+        <img src="imagenes/mercedes_benz2.png" width="220" height="180">
+        <img src="imagenes/bmw2.png" width="200" height="180">
+        <img src="imagenes/porsche3.png" width="200" height="180">
+        <img src="imagenes/audi2.png" width="200" height="180">
+        <img src="imagenes/infiniti2.jpg" width="200" height="180">
+        <img src="imagenes/Pininfarina2.png" width="200" height="180">
+
+    </div>
+        <br>
+        
+    <div>
+
+        <h3>Modelo</h3>
+
+    <hr>
+    
+        <label for="modelo"><input type="radio" name="modelo" value="1">Sedan</label>
+        <label for="modelo"><input type="radio" name="modelo" value="2">Deportivo</label>
+        <label for="modelo"><input type="radio" name="modelo" value="3">SUV</label>
+        <label for="modelo"><input type="radio" name="modelo" value="4">Familiar</label>
+
+    </div>
+
+    <div>
+
+        <h3>Servicios Extra</h3>
+
+    <hr>
+
+    
+        <p>La Renta del auto puede estar acompañado de servicios extras:</p>
+
+        <label for="extra"><input type="checkbox" value="extra1">Contratacion de chofer all day</label>
+        <label for="extra"><input type="checkbox" value="extra2">Traslado Hotel/Aeropuerto</label>
+        <label for="extra"><input type="checkbox" value="extra3">Kilometraje Libre</label>
+        <label for="extra"><input type="checkbox" value="extra4">Auto Electrico</label>
+        <label for="extra"><input type="checkbox" value="extra5">Ezterilizacion diaria nocturna</label>
+        <label for="extra"><input type="checkbox" value="extra6">Internet Wifi in Car</label>
+
+    </div>
+
+    <br>
+
+    <div>
+        <button type="submit">Hacer tu Reservacion</button>
+    </div>
     </form>
+    
+    <hr>
+    <br>
+
+    <footer>
+        <p>Pagina elaborada por: Jose Alexis Mata Niño</p>
+        <p>Todos los Derechos Reservados</p>
+    </footer>
+
+
 </body>
 </html>
